@@ -71,72 +71,77 @@
       </div>
       <div class="sidebar">
         <div class="photo"></div>
-        <div class="contacts">
-          <h2 class="block-name">Contacts</h2>
-          <div class="contact-container">
-            <div class="contact-icon">
-              <img
-                src="../../public/img/icons/telephone.png"
-                alt="telephone-logo"
-              />
+        <div class="side-container">
+          <div class="contacts">
+            <h2 class="block-name">Contacts</h2>
+            <div class="contact-container">
+              <div class="contact-icon">
+                <img
+                  src="../../public/img/icons/telephone.png"
+                  alt="telephone-logo"
+                />
+              </div>
+              <div class="contact-info">+38 (097) 858-66-77</div>
             </div>
-            <div class="contact-info">+38 (097) 858-66-77</div>
+            <div class="contact-container">
+              <div class="contact-icon">
+                <img src="../../public/img/icons/email.png" alt="email-logo" />
+              </div>
+              <div class="contact-info">juliyabegma@gmail.com</div>
+            </div>
+            <div class="contact-container">
+              <div class="contact-icon">
+                <img
+                  src="../../public/img/icons/linkedin.png"
+                  alt="linkedin-logo"
+                />
+              </div>
+              <div class="contact-info">
+                <a
+                  href="https://www.linkedin.com/in/yuliia-behma-939394266/"
+                  target="_blank"
+                  >LinkedIn</a
+                >
+              </div>
+            </div>
+            <div class="contact-container">
+              <div class="contact-icon">
+                <img
+                  src="../../public/img/icons/github.png"
+                  alt="github-logo"
+                />
+              </div>
+              <div class="contact-info">
+                <a href="https://github.com/Yuliia-Behma" target="_blank"
+                  >GitHub</a
+                >
+              </div>
+            </div>
           </div>
-          <div class="contact-container">
-            <div class="contact-icon">
-              <img src="../../public/img/icons/email.png" alt="email-logo" />
-            </div>
-            <div class="contact-info">juliyabegma@gmail.com</div>
+          <div class="skills-block">
+            <h2 class="block-name">Tech skills</h2>
+            <ul>
+              <li class="skill">HTML5</li>
+              <li class="skill">CSS3/ SCSS</li>
+              <li class="skill">JavaScript</li>
+              <li class="skill">TypeScript</li>
+              <li class="skill">Git/ GitHub</li>
+              <li class="skill">Angular</li>
+              <li class="skill">Vue.js</li>
+              <li class="skill">React.js</li>
+              <li class="skill">Flex-box/ Grid</li>
+            </ul>
           </div>
-          <div class="contact-container">
-            <div class="contact-icon">
-              <img
-                src="../../public/img/icons/linkedin.png"
-                alt="linkedin-logo"
-              />
-            </div>
-            <div class="contact-info">
-              <a
-                href="https://www.linkedin.com/in/yuliia-behma-939394266/"
-                target="_blank"
-                >LinkedIn</a
-              >
-            </div>
+          <div class="skills-block">
+            <h2 class="block-name">Soft skills</h2>
+            <ul>
+              <li class="skill">Team-player</li>
+              <li class="skill">Communicative</li>
+              <li class="skill">Punctual</li>
+              <li class="skill">Clever</li>
+              <li class="skill">Tolerant</li>
+            </ul>
           </div>
-          <div class="contact-container">
-            <div class="contact-icon">
-              <img src="../../public/img/icons/github.png" alt="github-logo" />
-            </div>
-            <div class="contact-info">
-              <a href="https://github.com/Yuliia-Behma" target="_blank"
-                >GitHub</a
-              >
-            </div>
-          </div>
-        </div>
-        <div class="skills-block">
-          <h2 class="block-name">Tech skills</h2>
-          <ul>
-            <li class="skill">HTML5</li>
-            <li class="skill">CSS3/ SCSS</li>
-            <li class="skill">JavaScript</li>
-            <li class="skill">TypeScript</li>
-            <li class="skill">Git/ GitHub</li>
-            <li class="skill">Angular</li>
-            <li class="skill">Vue.js</li>
-            <li class="skill">React.js</li>
-            <li class="skill">Flex-box/ Grid</li>
-          </ul>
-        </div>
-        <div class="skills-block">
-          <h2 class="block-name">Soft skills</h2>
-          <ul>
-            <li class="skill">Team-player</li>
-            <li class="skill">Communicative</li>
-            <li class="skill">Punctual</li>
-            <li class="skill">Clever</li>
-            <li class="skill">Tolerant</li>
-          </ul>
         </div>
       </div>
     </div>
@@ -169,15 +174,71 @@ export default defineComponent({
   background-color: #fff;
   justify-content: center;
 }
-.contact-container {
-  display: flex;
-  align-items: center;
-}
+
 .contact-icon img {
-  width: 20px;
+  width: 24px;
 }
-.sidebar{
+.sidebar {
   width: 400px;
   box-sizing: border-box;
+  background-color: #ebeeed;
+  border-left: 2px solid #e55934;
+}
+.side-container {
+  padding: 20px;
+}
+.block-name {
+  color: #e55934;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  margin: 0;
+}
+.skills-block,
+.contacts {
+  padding-bottom: 20px;
+}
+.skills-block ul {
+  margin: 0;
+  padding-left: 20px;
+  font-family: "Noticia Text", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  list-style: circle;
+}
+.contact-container{
+  display: flex;
+  align-items: center;
+  font-family: "Noticia Text", serif;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 3px 0;
+}
+ul li::marker {
+  font-size: 6px;
+  line-height: 24px;
+  text-align: center;
+  color: #e55934;
+}
+.skill{
+  line-height: 24px;
+}
+.contact-info{
+  padding-left: 10px;
+}
+.contact-info a{
+  text-decoration: none;
+  color: #000;
+}
+.contact-info a:hover{
+  color: #e55934;
+  text-decoration: underline;
+}
+.contact-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 </style>
