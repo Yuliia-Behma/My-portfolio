@@ -6,9 +6,7 @@
           <h3 class="position">Front-end developer</h3>
           <h1 class="my-name-in-resume">Yuliia Behma</h1>
           <p class="about-me">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit qui
-            voluptatibus aliquam corporis vero illo commodi ducimus fuga a
-            repudiandae!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo illo tempora temporibus consectetur, earum quasi natus, maxime expedita porro nihil, aut voluptates minus vel recusandae molestiae dignissimos illum accusantium laboriosam? Non consequuntur beatae libero, dignissimos, ad quod assumenda doloremque vero reiciendis voluptatum expedita delectus porro exercitationem tenetur quidem dolor culpa.
           </p>
         </div>
         <div class="projects">
@@ -120,7 +118,7 @@
           </div>
           <div class="skills-block">
             <h2 class="block-name">Tech skills</h2>
-            <ul>
+            <ul class="skill-list">
               <li class="skill">HTML5</li>
               <li class="skill">CSS3/ SCSS</li>
               <li class="skill">JavaScript</li>
@@ -134,7 +132,7 @@
           </div>
           <div class="skills-block">
             <h2 class="block-name">Soft skills</h2>
-            <ul>
+            <ul class="skill-list">
               <li class="skill">Team-player</li>
               <li class="skill">Communicative</li>
               <li class="skill">Punctual</li>
@@ -216,7 +214,7 @@ export default defineComponent({
   line-height: 24px;
   margin: 3px 0;
 }
-ul li::marker {
+.skill-list li::marker {
   font-size: 6px;
   line-height: 24px;
   text-align: center;
@@ -240,5 +238,41 @@ ul li::marker {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.main{
+  padding: 50px;
+}
+.header-resume{
+  text-align: end;
+}
+.position{
+  margin: 0;
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+  color: #e55934;
+}
+.my-name-in-resume{
+  margin: 0;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-size: 4em;
+  line-height: 1.2em;
+  text-transform: uppercase;
+  background-image: url("../../public/img/bg-name.jpg");
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.about-me{
+  font-family: "Noticia Text", serif;
+  font-weight: 700;
+  font-style: italic;
+  text-align: end;
+}
+.main .block-name{
+  border-bottom: 2px solid #e55934;
+  text-align: end;
 }
 </style>
