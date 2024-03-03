@@ -259,7 +259,7 @@ export default defineComponent({
   font-size: 4em;
   line-height: 1.2em;
   text-transform: uppercase;
-  background-image: url("../../public/img/bg-name.jpg");
+  background-image: url("../../public/img/bg-name1.jpg");
   background-size: cover;
   background-clip: text;
   -webkit-background-clip: text;
