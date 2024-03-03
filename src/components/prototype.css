@@ -1,0 +1,77 @@
+p {
+  color: #e55934;
+  color: #212738;
+  color: #ffffff;
+  color: #bf211e;
+  color: #ff36ab;
+  color: #e4ff1a;
+  color: #ebeeed;
+
+    text-shadow: 5px 5px 20px #ffffff54,
+  -5px -5px 20px #ffffff54,
+  -5px 5px 20px #ffffff54,
+  5px -5px 20px #ffffff54,
+  5px 5px 20px #e4ff1a,
+  -5px -5px 20px #e4ff1a,
+  -5px 5px 20px #e4ff1a,
+  5px -5px 20px #e4ff1a;
+}
+/* -------------- */
+.noticia-text-regular {
+  font-family: "Noticia Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.noticia-text-bold {
+  font-family: "Noticia Text", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.noticia-text-regular-italic {
+  font-family: "Noticia Text", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.noticia-text-bold-italic {
+  font-family: "Noticia Text", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+/* ------------------------- */
+.anton-regular {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/* ------------------------- */
+.kanit-regular {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.kanit-semibold {
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.kanit-bold {
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+/* --------------- */
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 700 */
+
+.el-messiri {
+  font-family: "El Messiri", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}

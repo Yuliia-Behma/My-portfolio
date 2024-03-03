@@ -1,26 +1,34 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <HeaderComp></HeaderComp>
+  <MainLayout>
+    <RouterView ></RouterView>
+  </MainLayout>
+  
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import { defineComponent } from "vue";
+import HeaderComp from "./components/HeaderComp.vue";
+import MainLayout from "./components/MainLayout.vue";
+import { RouterView } from "vue-router"
 
-export default {
-  name: 'App',
+
+export default defineComponent({
+  setup() {
+    return {};
+  },
   components: {
-    HelloWorld
-  }
-}
+    HeaderComp,
+    MainLayout,
+    RouterView
+  },
+});
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+.header-li{
+  list-style: none;
+  padding: 0;
 }
+
 </style>
