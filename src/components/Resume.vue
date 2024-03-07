@@ -6,7 +6,18 @@
           <h3 class="position">Front-end developer</h3>
           <h1 class="my-name-in-resume">Yuliia Behma</h1>
           <p class="about-me">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo illo tempora temporibus consectetur, earum quasi natus, maxime expedita porro nihil, aut voluptates minus vel recusandae molestiae dignissimos illum accusantium laboriosam? Non consequuntur beatae libero, dignissimos, ad quod assumenda doloremque vero reiciendis voluptatum expedita delectus porro exercitationem tenetur quidem dolor culpa.
+            I'm a beginner front-end developer, brimming with enthusiasm and
+            drive to refine my craft. While I haven't yet had the chance to
+            collaborate within a team, I believe my portfolio website showcases
+            my skills to some extent and will hopefully pique your interest in
+            having me join your team. Although my prior work experience isn't
+            directly tied to software development, it has honed my abilities in
+            client interaction, teamwork, and underscores my meticulousness,
+            diligence, logical thinking, and knack for creating aesthetically
+            pleasing designs. I've pursued my education independently,
+            demonstrating both my resourcefulness and commitment to
+            self-improvement. Consequently, with a mentor's guidance, I'm eager
+            to rapidly elevate my skillset within a team environment.
           </p>
         </div>
         <div class="projects">
@@ -15,55 +26,86 @@
         <div class="work-experience">
           <h2 class="block-name">Work-experience</h2>
           <div class="work-position">
-            <h3>Work 1</h3>
-            <h4 class="work-education-time">February 2024</h4>
+            <h3>Trainee Front-end developer</h3>
+            <h4 class="work-education-time">Since February 2024</h4>
             <ul class="work-task-block">
-              <li class="work-task">something 1</li>
-              <li class="work-task">something 2</li>
-              <li class="work-task">something 3</li>
+              <li class="work-task">
+                I work independently on pet-projects, refining and improving my
+                skills;
+              </li>
+              <li class="work-task">
+                expanding my skill set and mastering new technologies;
+              </li>
+              <li class="work-task">continue studying English.</li>
             </ul>
           </div>
           <div class="work-position">
-            <h3>Work 2</h3>
-            <h4 class="work-education-time">February 2024</h4>
+            <h3>Nail Artist</h3>
+            <h4 class="work-education-time">August 2013 - March 2023</h4>
             <ul class="work-task-block">
-              <li class="work-task">something 1</li>
-              <li class="work-task">something 2</li>
-              <li class="work-task">something 3</li>
+              <li class="work-task">provided nail service;</li>
+              <li class="work-task">
+                performed nail modeling considering the architectural structure
+                with acrylic, gel, and polygel;
+              </li>
+              <li class="work-task">
+                Executed designs of any complexity, achieving the level of
+                TOP-master.
+              </li>
             </ul>
           </div>
           <div class="work-position">
-            <h3>Work 3</h3>
-            <h4 class="work-education-time">February 2024</h4>
+            <h3>
+              Accountant at
+              <span
+                >Municipal Institution 'Novomoskovsky District Labor
+                Archive'</span
+              >
+            </h3>
+            <h4 class="work-education-time">February 2016 - November 2016</h4>
             <ul class="work-task-block">
-              <li class="work-task">something 1</li>
-              <li class="work-task">something 2</li>
-              <li class="work-task">something 3</li>
+              <li class="work-task">
+                independently and comprehensively managed income and expenditure
+                accounting, budget calculations, payroll calculations;
+              </li>
+              <li class="work-task">
+                compiled and timely submitted financial, budgetary, statistical,
+                and tax reporting in accordance with the law;
+              </li>
+              <li class="work-task">
+                improved the organization of accounting and reporting through
+                audits and rectification of deficiencies.
+              </li>
             </ul>
           </div>
         </div>
         <div class="education">
           <h2 class="block-name">Education</h2>
           <div class="step-education">
-            <h3 class="educational-institution">University</h3>
+            <h3 class="educational-institution">
+              <a href="https://itvdn.com/ua" target="_blank">ITVDN</a>
+            </h3>
+            <h4 class="specialization">
+              <a
+                href="https://itvdn.com/ua/specialities/frontend-developer"
+                target="_blank"
+                >Front-end development</a
+              >
+              | Softwear engineering
+            </h4>
+            <p class="work-education-time">
+              October 2022 - March 2024 | Ukraine
+            </p>
+          </div>
+          <div class="step-education">
+            <h3 class="educational-institution">
+              Higher Educational Establishment of Ukoopspilka "Poltava
+              University of Economics and Trade"
+            </h3>
             <h4 class="specialization">
               Specialist's degree | Accounting and Audit
             </h4>
             <p class="work-education-time">April 2016 - June 2017 | Ukraine</p>
-          </div>
-          <div class="step-education">
-            <h3 class="educational-institution">ITVDN</h3>
-            <h4 class="specialization">Front-end developer | IT</h4>
-            <p class="work-education-time">
-              October 2022 - March 2024 | Ukraine
-            </p>
-          </div>
-          <div class="step-education">
-            <h3 class="educational-institution">ITVDN</h3>
-            <h4 class="specialization">Angular developer | IT</h4>
-            <p class="work-education-time">
-              October 2022 - March 2024 | Ukraine
-            </p>
           </div>
         </div>
       </div>
@@ -140,6 +182,13 @@
               <li class="skill">Tolerant</li>
             </ul>
           </div>
+          <div class="skills-block">
+            <h2 class="block-name">Languages</h2>
+            <ul class="languages">
+              <li class="skill">Ukrainian (native)</li>
+              <li class="skill">English (Intermediate B1)</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
@@ -197,7 +246,16 @@ export default defineComponent({
 .contacts {
   padding-bottom: 20px;
 }
-.skills-block ul {
+.languages {
+  margin: 0;
+  padding-left: 20px;
+  font-family: "Noticia Text", serif;
+  font-weight: 400;
+  font-style: normal;
+  list-style: circle;
+  text-transform: none;
+}
+.skill-list {
   margin: 0;
   padding-left: 20px;
   font-family: "Noticia Text", serif;
@@ -206,7 +264,8 @@ export default defineComponent({
   text-transform: uppercase;
   list-style: circle;
 }
-.contact-container{
+
+.contact-container {
   display: flex;
   align-items: center;
   font-family: "Noticia Text", serif;
@@ -214,45 +273,45 @@ export default defineComponent({
   line-height: 24px;
   margin: 3px 0;
 }
-.skill-list li::marker {
+.skill::marker {
   font-size: 6px;
   line-height: 24px;
   text-align: center;
   color: #e55934;
 }
-.skill{
+.skill {
   line-height: 24px;
 }
-.contact-info{
+.contact-info {
   padding-left: 10px;
 }
-.contact-info a{
+.contact-info a {
   text-decoration: none;
   color: #000;
 }
-.contact-info a:hover{
+.contact-info a:hover {
   color: #e55934;
   text-decoration: underline;
 }
-.contact-icon{
+.contact-icon {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.main{
+.main {
   padding: 50px;
 }
-.header-resume{
+.header-resume {
   text-align: end;
 }
-.position{
+.position {
   margin: 0;
   font-family: "Kanit", sans-serif;
   font-weight: 600;
   color: #e55934;
 }
-.my-name-in-resume{
+.my-name-in-resume {
   margin: 0;
   font-family: "Anton", sans-serif;
   font-weight: 400;
@@ -265,13 +324,13 @@ export default defineComponent({
   -webkit-background-clip: text;
   color: transparent;
 }
-.about-me{
+.about-me {
   font-family: "Noticia Text", serif;
   font-weight: 700;
   font-style: italic;
   text-align: end;
 }
-.main .block-name{
+.main .block-name {
   border-bottom: 2px solid #e55934;
   text-align: end;
 }
