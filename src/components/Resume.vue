@@ -109,7 +109,7 @@
         </div>
       </div>
       <div class="sidebar">
-        <div class="photo"></div>
+        <div class="photo"><img src="../../public/img/my-photo-ai.png" alt="my-photo" width="350"></div>
         <div class="side-container">
           <div class="contacts">
             <h2 class="block-name">Contacts</h2>
@@ -219,6 +219,9 @@ export default defineComponent({
   max-width: 1200px;
   background-color: #fff;
   justify-content: center;
+}
+.photo{
+  border-bottom: 2px solid #e55934;
 }
 
 .contact-icon img {
