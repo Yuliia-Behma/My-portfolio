@@ -49,7 +49,7 @@
                 with acrylic, gel, and polygel;
               </li>
               <li class="work-task">
-                Executed designs of any complexity, achieving the level of
+                executed designs of any complexity, achieving the level of
                 TOP-master.
               </li>
             </ul>
@@ -91,7 +91,6 @@
                 target="_blank"
                 >Front-end development</a
               >
-              | Softwear engineering
             </h4>
             <p class="work-education-time">
               October 2022 - March 2024 | Ukraine
@@ -234,14 +233,63 @@ export default defineComponent({
 .side-container {
   padding: 20px;
 }
-.block-name {
-  color: #e55934;
+.block-name,
+.work-position h3,
+.educational-institution {
   font-family: "Kanit", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 22px;
   margin: 0;
 }
+.educational-institution a {
+  text-decoration: none;
+  color: #000;
+}
+.educational-institution a:hover,
+.specialization a:hover {
+  color: #e55934;
+  text-decoration: underline;
+}
+.specialization {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  margin: 0;
+  font-size: 16px;
+  color: #292929;
+}
+.specialization a {
+  color: #292929;
+  text-decoration: none;
+}
+
+.work-position,
+.step-education {
+  margin-left: 10px;
+  padding: 10px 0;
+}
+.work-position h3 {
+  font-size: 20px;
+}
+.block-name {
+  color: #e55934;
+  font-size: 22px;
+}
+.work-education-time {
+  margin: 6px 0;
+  color: #b7b7b7;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+}
+.work-task-block {
+  margin: 0;
+  font-family: "Noticia Text", serif;
+  font-weight: 400;
+  font-size: 16px;
+  padding-left: 20px;
+  list-style: circle;
+}
+
 .skills-block,
 .contacts {
   padding-bottom: 20px;
@@ -273,14 +321,19 @@ export default defineComponent({
   line-height: 24px;
   margin: 3px 0;
 }
-.skill::marker {
-  font-size: 6px;
+.skill::marker,
+.work-task::marker {
+  font-size: 8px;
   line-height: 24px;
   text-align: center;
   color: #e55934;
 }
 .skill {
   line-height: 24px;
+}
+.work-task {
+  line-height: 24px;
+  color: #292929;
 }
 .contact-info {
   padding-left: 10px;
@@ -326,9 +379,10 @@ export default defineComponent({
 }
 .about-me {
   font-family: "Noticia Text", serif;
-  font-weight: 700;
-  font-style: italic;
-  text-align: end;
+  font-weight: 400;
+  font-style: normal;
+  text-align: justify;
+  color: #292929;
 }
 .main .block-name {
   border-bottom: 2px solid #e55934;
