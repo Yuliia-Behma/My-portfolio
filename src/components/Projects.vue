@@ -20,7 +20,7 @@ export default defineComponent({
     const projects = [
       {
         url: "https://yuliia-behma.github.io/tetris_game/",
-        img: "tetris.jpg",
+        img: "/img/tetris.jpg",
         name: "Tetris game",
         descriptions:
           "The Tetris game is created using pure JavaScript, HTML, and CSS. It's adapted for mobile devices and tablets.",
@@ -28,7 +28,7 @@ export default defineComponent({
       },
       {
         url: "https://main--luminous-centaur-178f20.netlify.app/",
-        img: "forms.jpg",
+        img: "/img/forms.jpg",
         name: "Sign In/ Sign Up forms",
         descriptions:
           "The Sign In/Sign Up forms are created using Vue3. Data input validation has been implemented. Client-side routing is configured using the vue-router library.",
@@ -47,9 +47,27 @@ export default defineComponent({
 .wraper {
   margin: 0 auto;
   max-width: 1300px;
+  background-color: #ffffff20;
+  backdrop-filter: blur(2px);
+  padding: 20px 20px 80px;
 }
 .projects-container {
   display: grid;
-  
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: auto;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  align-items: baseline;
+  justify-items: center;
+}
+.projects-header{
+  /* color: #ebeeed; */
+  text-align: center;
+  text-transform: uppercase;
+    font-family: "Anton", sans-serif;
+  font-weight: 400;
+  margin: 10px 0;
+  font-size: 3em;
+ color: #ebeeed;
 }
 </style>
