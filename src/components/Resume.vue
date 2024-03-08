@@ -210,8 +210,8 @@ export default defineComponent({
   max-width: 1300px;
   margin: 0 auto;
   padding: 20px 0;
-  background-color: #ffffff20;
-  backdrop-filter: blur(2px);
+  /* background-color: #ffffff20;
+  backdrop-filter: blur(2px); */
 }
 .resume {
   margin: 0 auto;

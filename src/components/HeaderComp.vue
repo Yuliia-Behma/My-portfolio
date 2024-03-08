@@ -1,7 +1,7 @@
 <template>
   <header>
     <div class="logo">
-      <span id="my-name-logo">YULIIA BEHMA</span>
+      <span id="my-name-logo">Yuliia Behma</span>
     </div>
     <div>
       <nav class="nav-header">
@@ -88,27 +88,27 @@ header {
   color: #e55934;
   box-sizing: border-box;
   border-bottom: 2px solid #e55934;
-    transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 .nav-header a {
   padding: 10px 30px;
 }
-.nav-header a:active,.nav-header a:hover{
+.nav-header a:active,
+.nav-header a:hover {
   color: #e55934;
   box-sizing: border-box;
   border-bottom: 2px solid #e55934;
   transition: all 0.3s ease;
 }
 
-#my-name-logo{
+#my-name-logo {
   font-family: "El Messiri", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
   color: #ebeeed;
   font-size: 1.5em;
-   text-shadow: 5px 5px 20px #ffffff54,
-  -5px -5px 20px #ffffff54,
-  -5px 5px 20px #ffffff54,
-  5px -5px 20px #ffffff54;
+  text-shadow: 5px 5px 20px #ffffff54, -5px -5px 20px #ffffff54,
+    -5px 5px 20px #ffffff54, 5px -5px 20px #ffffff54;
+  text-transform: uppercase;
 }
 </style>
