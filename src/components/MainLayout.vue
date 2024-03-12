@@ -24,4 +24,9 @@ export default defineComponent({
     margin: 0 auto;
     box-sizing: border-box;
 }
+@media screen and (max-width: 767px){
+  .custom-layout{
+    width: 100%;
+  }
+}
 </style>

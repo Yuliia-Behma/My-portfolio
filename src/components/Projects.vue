@@ -46,10 +46,15 @@ export default defineComponent({
 <style scoped>
 .wraper {
   margin: 0 auto;
-  max-width: 1300px;
-  background-color: #ffffff20;
+  box-sizing: border-box;
+  max-width: 1200px;
+  background-color: #ffffff12;
   backdrop-filter: blur(2px);
-  padding: 20px 20px 80px;
+  padding: 20px 40px 80px;
+  min-height: calc(100vh - 100px);
+  border-radius: 1.2rem;
+  box-shadow: 5px 5px 30px #ffffff54, -5px -5px 30px #ffffff54,
+    -5px 5px 30px #ffffff54, 5px -5px 30px #ffffff54;
 }
 .projects-container {
   display: grid;
@@ -59,15 +64,34 @@ export default defineComponent({
   grid-row-gap: 10px;
   align-items: baseline;
   justify-items: center;
+  padding-top: 20px;
 }
-.projects-header{
-  /* color: #ebeeed; */
+.projects-header {
   text-align: center;
   text-transform: uppercase;
-    font-family: "Anton", sans-serif;
+  font-family: "Anton", sans-serif;
   font-weight: 400;
   margin: 10px 0;
   font-size: 3em;
- color: #ebeeed;
+  color: #ebeeed;
+  border-bottom: 2px solid #ebeeed;
+}
+@media screen and (max-width: 767px){
+  .projects-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  .wraper{
+    box-sizing: border-box;
+    padding: 10px 10px 40px;
+    border-radius: 0;
+    width: 100%;
+    height: auto;
+  }
+  .projects-header{
+    font-size: 1.5em;
+  }
 }
 </style>

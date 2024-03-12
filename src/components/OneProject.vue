@@ -6,7 +6,6 @@
           class="project-img"
           :src="currentProj.img"
           alt="project img"
-          width="380"
       /></a>
     </div>
     <a class="project-name" :href="currentProj.url" target="_blank">{{
@@ -37,13 +36,22 @@ export default defineComponent({
 <style scoped>
 .project-box {
   width: 400px;
+  box-sizing: border-box;
   padding: 15px;
-  background-color: #ebeeed8e;
+  background-color: #d7d7d7;
   display: flex;
   flex-direction: column;
   border-radius: 10px;
+  box-shadow: inset 3px 3px 10px #6f778cb7,
+  inset -3px -3px 10px #6f778cb7,
+  inset -3px 3px 10px #212738b7,
+  inset 3px -3px 10px #212738b7,
+  3px 3px 20px #ffffff54,
+  -3px -3px 20px #ffffff54,
+  -3px 3px 20px #ffffff54,
+  3px -3px 20px #ffffff54;
 }
-.project-img,
+
 .project-name {
   align-self: center;
 }
@@ -57,7 +65,7 @@ export default defineComponent({
   text-transform: uppercase;
 }
 .project-name:hover,
-.source-code:hover {
+.source-code:hover{
   color: #e55934;
   text-decoration: underline;
 }
@@ -71,7 +79,7 @@ details {
 summary {
   font-weight: 600;
 }
-summary::marker{
+summary::marker {
   color: #e55934;
 }
 .source-code {
@@ -89,13 +97,29 @@ summary::marker{
     -5px 5px 10px #36363661, 5px -5px 10px #36363661;
   width: 380px;
   aspect-ratio: 15/9;
-}
-.project-img:hover{
-  transform: scale(1.2);
-  transition: .5s linear;
+  margin: 0 auto;
 }
 .project-img{
+  width: 380px;
+}
+.project-img:hover {
+  transform: scale(1.2);
+  transition: 0.5s linear;
+}
+.project-img {
   transform: scale(1);
-  transition: .5s linear;
+  transition: 0.5s linear;
+}
+@media screen and (max-width: 767px){
+  .project-box{
+    max-width: 360px;
+  }
+  .image-box{
+    width: 320px;
+  }
+  .project-img{
+  width: 320px;
+}
+
 }
 </style>

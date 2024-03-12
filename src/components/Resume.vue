@@ -20,9 +20,6 @@
             to rapidly elevate my skillset within a team environment.
           </p>
         </div>
-        <div class="projects">
-          <h2 class="block-name">Projects</h2>
-        </div>
         <div class="work-experience">
           <h2 class="block-name">Work-experience</h2>
           <div class="work-position">
@@ -162,13 +159,13 @@
             <ul class="skill-list">
               <li class="skill">HTML5</li>
               <li class="skill">CSS3/ SCSS</li>
+              <li class="skill">Flex-box/ Grid</li>
               <li class="skill">JavaScript</li>
               <li class="skill">TypeScript</li>
               <li class="skill">Git/ GitHub</li>
               <li class="skill">Angular</li>
               <li class="skill">Vue.js</li>
               <li class="skill">React.js</li>
-              <li class="skill">Flex-box/ Grid</li>
             </ul>
           </div>
           <div class="skills-block">
@@ -374,7 +371,7 @@ export default defineComponent({
   font-size: 4em;
   line-height: 1.2em;
   text-transform: uppercase;
-  background-image: linear-gradient();
+  background-image: url("../../public/img/bg-name1.jpg");
   background-size: cover;
   background-clip: text;
   -webkit-background-clip: text;
