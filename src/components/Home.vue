@@ -119,4 +119,12 @@ h2{
   height: calc(100vh - 96px);
   overflow: hidden;
 }
+@media screen and (max-width: 767px){
+  h1{
+    font-size: 2.5em;
+  }
+  #my-name{
+    font-size: 2em;
+  }
+}
 </style>

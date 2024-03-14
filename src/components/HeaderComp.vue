@@ -3,7 +3,7 @@
     <div class="logo">
       <span id="my-name-logo">Yuliia Behma</span>
     </div>
-    <input type="checkbox" class="checkbox">
+    <input type="checkbox" class="checkbox" id="check">
     <div class="burger-lines">
       <span class="line line1"></span>
       <span class="line line2"></span>
@@ -175,7 +175,7 @@ input[type="checkbox"]:checked ~ .burger-lines .line3 {
   transform: rotate(-45deg);
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
   header {
     flex-direction: column;
     padding: 10px 0 0;
