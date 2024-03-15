@@ -5,6 +5,7 @@
         <div class="header-resume">
           <h3 class="position">Front-end developer</h3>
           <h1 class="my-name-in-resume">Yuliia Behma</h1>
+          <div class="photo-mobile"><img src="../../public/img/my-photo-ai.png" alt="my-photo" width="250"></div>
           <p class="about-me">
             I'm a beginner front-end developer, brimming with enthusiasm and
             drive to refine my craft. While I haven't yet had the chance to
@@ -106,7 +107,7 @@
         </div>
       </div>
       <div class="sidebar">
-        <div class="photo"><img src="../../public/img/my-photo-ai.png" alt="my-photo" width="350"></div>
+        <div class="photo-desktop"><img src="../../public/img/my-photo-ai.png" alt="my-photo" width="350"></div>
         <div class="side-container">
           <div class="contacts">
             <h2 class="block-name">Contacts</h2>
@@ -217,8 +218,11 @@ export default defineComponent({
   background-color: #fff;
   justify-content: center;
 }
-.photo{
+.photo-desktop{
   border-bottom: 2px solid #e55934;
+}
+.photo-mobile{
+  display: none;
 }
 
 .contact-icon img {
@@ -387,5 +391,35 @@ export default defineComponent({
 .main .block-name {
   border-bottom: 2px solid #e55934;
   text-align: end;
+}
+@media screen and (max-width: 767px){
+  .resume-wraper{
+    width: 100%;
+  }
+  .resume{
+    flex-direction: column;
+  }
+  .my-name-in-resume{
+    font-size: 3em;
+  }
+  .main{
+    padding: 15px;
+  }
+  .sidebar{
+    border-left: 0;
+    margin: 0 auto;
+    border-top: 2px solid #e55934;
+  }
+  .photo-desktop{
+    display: none;
+  }
+  .photo-mobile{
+    display: flex;
+    border-bottom: 2px solid #e55934;
+    justify-content: center;
+  }
+  .main .block-name, .header-resume {
+    text-align: start;
+  } 
 }
 </style>
