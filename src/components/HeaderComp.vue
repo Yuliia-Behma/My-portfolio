@@ -182,9 +182,10 @@ header {
     border-radius: 0.7rem;
     position: absolute;
     top: 60px;
-    left: 100%;
+    left: calc(100vw - 320px);
     z-index: 5;
     transition: all .5s ease-in-out;
+    display: none;
   }
   #my-name-logo {
     line-height: 50px;
@@ -193,7 +194,8 @@ header {
   display: block;
 }
 input[type="checkbox"]:checked ~ .nav-div{
-  left: calc(100% - 300px);
+  /* left: calc(100% - 300px); */
+  display: block;
 }
 input[type="checkbox"]:checked ~ .burger-lines .line1 {
   transform: rotate(45deg);
