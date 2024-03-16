@@ -23,10 +23,12 @@ export default defineComponent({
 .custom-layout{
     margin: 0 auto;
     box-sizing: border-box;
+    height: calc(100% - 116px)
 }
 @media screen and (max-width: 767px){
   .custom-layout{
     width: 100%;
+    height: calc(100vh - 60px);
   }
 }
 </style>

@@ -78,12 +78,13 @@ export default defineComponent({
 .wraper{
   text-align: end;
   color: #fff;
-  padding-right: 20px;
-  margin-top: 90px;
+  padding: 70px 15px;
   display: flex;
   justify-content: flex-end;
   max-width: 1200px;
-  margin: 70px auto;
+  height: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 .baner{
   margin-right: 20px;
@@ -116,8 +117,7 @@ h2{
 }
 #home-container{
   position: relative;
-  height: calc(100vh - 96px);
-  overflow: hidden;
+  height: 100%;
 }
 @media screen and (max-width: 767px){
   h1{
