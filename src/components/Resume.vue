@@ -205,9 +205,9 @@ export default defineComponent({
 
 <style scoped>
 .resume-wraper {
-  max-width: 1300px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 20px 0;
+  padding: 0 0 20px ;
   /* background-color: #ffffff20;
   backdrop-filter: blur(2px); */
 }
@@ -217,6 +217,7 @@ export default defineComponent({
   max-width: 1200px;
   background-color: #fff;
   justify-content: center;
+  border-radius: 10px;
 }
 .photo-desktop{
   border-bottom: 2px solid #e55934;
@@ -233,6 +234,7 @@ export default defineComponent({
   box-sizing: border-box;
   background-color: #ebeeed;
   border-left: 2px solid #e55934;
+  border-radius: 0 10px 10px 0;
 }
 .side-container {
   padding: 20px;

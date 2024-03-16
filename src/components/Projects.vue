@@ -52,9 +52,9 @@ export default defineComponent({
   backdrop-filter: blur(2px);
   padding: 20px 40px 80px;
   min-height: calc(100vh - 120px);
-  border-radius: 1.2rem;
-  box-shadow: 5px 5px 30px #ffffff54, -5px -5px 30px #ffffff54,
-    -5px 5px 30px #ffffff54, 5px -5px 30px #ffffff54;
+  border-radius: 10px;
+  /* box-shadow: 5px 5px 30px #ffffff54, -5px -5px 30px #ffffff54,
+    -5px 5px 30px #ffffff54, 5px -5px 30px #ffffff54; */
 }
 .projects-container {
   display: grid;
