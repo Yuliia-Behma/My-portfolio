@@ -126,5 +126,8 @@ h2{
   #my-name{
     font-size: 2em;
   }
+  #home-container{
+    max-height: calc(100vh - 60px);
+  }
 }
 </style>

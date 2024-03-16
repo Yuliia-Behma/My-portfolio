@@ -162,23 +162,13 @@ header {
   transform-origin: 0% 100%;
   transition: transform 0.4s ease-in-out;
 }
-input[type="checkbox"]:checked ~ .nav-div{
-  left: calc(100% - 300px);
-}
-input[type="checkbox"]:checked ~ .burger-lines .line1 {
-  transform: rotate(45deg);
-}
-input[type="checkbox"]:checked ~ .burger-lines .line2 {
-  transform: scaleY(0);
-}
-input[type="checkbox"]:checked ~ .burger-lines .line3 {
-  transform: rotate(-45deg);
-}
+
 
 @media screen and (max-width: 767px) {
   header {
     flex-direction: column;
     padding: 10px 0 0;
+    width: 100%;
   }
 
   .header-ul {
@@ -201,6 +191,18 @@ input[type="checkbox"]:checked ~ .burger-lines .line3 {
   }
   .checkbox, .burger-lines .line{
   display: block;
+}
+input[type="checkbox"]:checked ~ .nav-div{
+  left: calc(100% - 300px);
+}
+input[type="checkbox"]:checked ~ .burger-lines .line1 {
+  transform: rotate(45deg);
+}
+input[type="checkbox"]:checked ~ .burger-lines .line2 {
+  transform: scaleY(0);
+}
+input[type="checkbox"]:checked ~ .burger-lines .line3 {
+  transform: rotate(-45deg);
 }
 }
 </style>
