@@ -124,7 +124,7 @@
               <div class="contact-icon">
                 <img src="../../public/img/icons/email.png" alt="email-logo" />
               </div>
-              <div class="contact-info">juliyabegma@gmail.com</div>
+              <div class="contact-info"><a href="mailto:juliyabegma@gmail.com">juliyabegma@gmail.com</a></div>
             </div>
             <div class="contact-container">
               <div class="contact-icon">

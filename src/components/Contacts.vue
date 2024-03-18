@@ -8,7 +8,7 @@
       </div>
       <div class="contact-item">
         <div class="contact-icon"><img src="../../public/img/lightIcons/email.png" alt="email"></div>
-        <div class="contact-data">juliyabegma@gmail.com</div>
+        <div class="contact-data"><a href="mailto:juliyabegma@gmail.com">juliyabegma@gmail.com</a></div>
       </div>
       <div class="contact-item">
         <div class="contact-icon"><img src="../../public/img/lightIcons/linkedin.png" alt="linkedIn"></div>
