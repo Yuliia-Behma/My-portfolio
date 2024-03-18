@@ -107,6 +107,8 @@ export default defineComponent({
 .contact-icon img{
   width: 25px;
   padding: 4px;
+  filter: drop-shadow(3px 3px 10px rgba(33, 39, 56, 0.9));
+  -webkit-filter: drop-shadow(3px 3px 10px rgba(33, 39, 56, 0.9));
 }
 .contact-icon{
   width: 33px;
@@ -114,6 +116,12 @@ export default defineComponent({
 }
 .contact-data{
   padding-left: 10px;
+}
+.contact-data a{
+text-shadow: 3px 3px 13px rgba(33, 39, 56, 0.9),
+             -3px -3px 13px rgba(33, 39, 56, 0.9),
+             3px -3px 13px rgba(33, 39, 56, 0.9),
+             -3px 3px 13px rgba(33, 39, 56, 0.9);
 }
 .contact-icon .location-icon{
   padding: 0 4px;
