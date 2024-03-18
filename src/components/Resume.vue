@@ -407,10 +407,17 @@ export default defineComponent({
   .main{
     padding: 15px;
   }
+  .about-me{
+    line-height: 1.7em;
+  }
+  .work-task{
+    line-height: 1.7em;
+  }
   .sidebar{
     border-left: 0;
     margin: 0 auto;
     border-top: 2px solid #e55934;
+    border-radius: 0;
   }
   .photo-desktop{
     display: none;
@@ -423,5 +430,18 @@ export default defineComponent({
   .main .block-name, .header-resume {
     text-align: start;
   } 
+  .block-name{
+    margin-top: 15px;
+    font-size: 1.8em;
+  }
+  .contacts{
+    border-bottom: 2px solid #e55934;
+  }
+  .contact-container{
+    margin: 15px 10px;
+  }
+  .contact-info{
+    font-size: 1.2em;
+  }
 }
 </style>
