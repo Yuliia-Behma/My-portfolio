@@ -3,7 +3,7 @@
     <div class="logo">
       <span id="my-name-logo">Yuliia Behma</span>
     </div>
-    <input type="checkbox" class="checkbox" id="check">
+    <input type="checkbox" class="checkbox" id="check" />
     <div class="burger-lines">
       <span class="line line1"></span>
       <span class="line line2"></span>
@@ -119,10 +119,11 @@ header {
     -5px 5px 20px #ffffff54, 5px -5px 20px #ffffff54;
   text-transform: uppercase;
 }
-.checkbox, .burger-lines{
+.checkbox,
+.burger-lines {
   display: none;
 }
-.checkbox{
+.checkbox {
   position: absolute;
   height: 32px;
   width: 32px;
@@ -133,7 +134,7 @@ header {
   cursor: pointer;
   margin: 0;
 }
-.burger-lines{
+.burger-lines {
   height: 26px;
   width: 32px;
   position: absolute;
@@ -144,15 +145,15 @@ header {
   flex-direction: column;
   justify-content: space-between;
 }
-.burger-lines .line{
+.burger-lines .line {
   display: none;
   height: 4px;
   width: 100%;
   border-radius: 10px;
   background-color: #ebeeed;
 }
-.burger-lines .line1{
-   transform-origin: 0% 0%;
+.burger-lines .line1 {
+  transform-origin: 0% 0%;
   transition: transform 0.4s ease-in-out;
 }
 .burger-lines .line2 {
@@ -162,7 +163,6 @@ header {
   transform-origin: 0% 100%;
   transition: transform 0.4s ease-in-out;
 }
-
 
 @media screen and (max-width: 767px) {
   header {
@@ -175,12 +175,11 @@ header {
     flex-direction: column;
     align-items: stretch;
     text-align: center;
-    
   }
 
   .nav-div {
     align-self: flex-end;
-    background-color: #212738ea;
+    background-color: #212738f7;
     width: 300px;
     border-radius: 0.5rem;
     position: absolute;
@@ -189,29 +188,31 @@ header {
     z-index: 5;
     display: none;
     font-size: 1.3em;
-    transition: all .5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    border: 1px solid #ebeeed;
   }
-  .nav-header li{
+  .nav-header li {
     margin: 17px 0;
   }
   #my-name-logo {
     line-height: 50px;
   }
-  .checkbox, .burger-lines .line{
-  display: block;
-}
-input[type="checkbox"]:checked ~ .nav-div{
-  /* left: calc(100% - 300px); */
-  display: block;
-}
-input[type="checkbox"]:checked ~ .burger-lines .line1 {
-  transform: rotate(45deg);
-}
-input[type="checkbox"]:checked ~ .burger-lines .line2 {
-  transform: scaleY(0);
-}
-input[type="checkbox"]:checked ~ .burger-lines .line3 {
-  transform: rotate(-45deg);
-}
+  .checkbox,
+  .burger-lines .line {
+    display: block;
+  }
+  input[type="checkbox"]:checked ~ .nav-div {
+    /* left: calc(100% - 300px); */
+    display: block;
+  }
+  input[type="checkbox"]:checked ~ .burger-lines .line1 {
+    transform: rotate(45deg);
+  }
+  input[type="checkbox"]:checked ~ .burger-lines .line2 {
+    transform: scaleY(0);
+  }
+  input[type="checkbox"]:checked ~ .burger-lines .line3 {
+    transform: rotate(-45deg);
+  }
 }
 </style>
