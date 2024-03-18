@@ -95,12 +95,12 @@ summary::marker {
   overflow: hidden;
   box-shadow: 5px 5px 10px #36363661, -5px -5px 10px #36363661,
     -5px 5px 10px #36363661, 5px -5px 10px #36363661;
-  width: 380px;
+  width: 370px;
   aspect-ratio: 15/9;
   margin: 0 auto;
 }
 .project-img{
-  width: 380px;
+  width: 370px;
 }
 .project-img:hover {
   transform: scale(1.2);
@@ -120,6 +120,19 @@ summary::marker {
   .project-img{
   width: 320px;
 }
-
+details{
+  margin-top: 15px;
+  line-height: 1.5em;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #6b6968;
+}
+summary{
+  font-size: 1.2em;
+}
+.source-code{
+  margin: 10px;
+  border: 0;
+  font-weight: 600;
+}
 }
 </style>
