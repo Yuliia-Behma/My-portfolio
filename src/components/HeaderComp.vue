@@ -173,19 +173,26 @@ header {
 
   .header-ul {
     flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+    
   }
 
   .nav-div {
     align-self: flex-end;
     background-color: #212738ea;
     width: 300px;
-    border-radius: 0.7rem;
+    border-radius: 0.5rem;
     position: absolute;
     top: 60px;
     left: calc(100vw - 320px);
     z-index: 5;
-    transition: all .5s ease-in-out;
     display: none;
+    font-size: 1.3em;
+    transition: all .5s ease-in-out;
+  }
+  .nav-header li{
+    margin: 17px 0;
   }
   #my-name-logo {
     line-height: 50px;
