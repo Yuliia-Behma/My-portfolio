@@ -4,7 +4,7 @@
     <div class="contact-container">
       <div class="contact-item">
         <div class="contact-icon"><img src="../../public/img/lightIcons/telephone.png" alt="telephone"></div>
-        <div class="contact-data">+38(097) 858-66-77</div>
+        <div class="contact-data"><a href="tel:+380978586677">+38(097) 858-66-77</a></div>
       </div>
       <div class="contact-item">
         <div class="contact-icon"><img src="../../public/img/lightIcons/email.png" alt="email"></div>

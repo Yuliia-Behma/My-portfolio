@@ -118,7 +118,7 @@
                   alt="telephone-logo"
                 />
               </div>
-              <div class="contact-info">+38 (097) 858-66-77</div>
+              <div class="contact-info"><a href="tel:+380978586677">+38(097) 858-66-77</a></div>
             </div>
             <div class="contact-container">
               <div class="contact-icon">
