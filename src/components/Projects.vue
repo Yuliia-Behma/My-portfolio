@@ -34,6 +34,14 @@ export default defineComponent({
           "The Sign In/Sign Up forms are created using Vue3. Data input validation has been implemented. Client-side routing is configured using the vue-router library.",
         sourceCode: "https://github.com/Yuliia-Behma/Vue-3-sign-in-up-form",
       },
+      {
+        url: "https://cute-mini-weather-forecast.netlify.app/",
+        img: "/img/weather.jpg",
+        name: "Mini weather forecast app",
+        descriptions:
+          "This application is created using the Vue.js 3 framework, utilizing the Vue-router, Axios, and Pinia libraries. OpenWeatherMap's API was employed to obtain weather data.",
+        sourceCode: "https://github.com/Yuliia-Behma/mini-weather-forecast-app",
+      },
     ];
     return {
       projects,
@@ -76,21 +84,20 @@ export default defineComponent({
   color: #ebeeed;
   border-bottom: 2px solid #ebeeed;
 }
-@media screen and (max-width: 767px){
-  .projects-container{
+@media screen and (max-width: 767px) {
+  .projects-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
   }
-  .wraper{
+  .wraper {
     box-sizing: border-box;
     padding: 10px 10px 40px;
     border-radius: 0;
     width: 100%;
     height: auto;
   }
-  .projects-header{
+  .projects-header {
     font-size: 1.5em;
   }
 }
