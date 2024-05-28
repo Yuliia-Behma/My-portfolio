@@ -38,14 +38,14 @@ export default defineComponent({
   width: 400px;
   box-sizing: border-box;
   padding: 15px;
-  background-color: #d7d7d7;
+  background-color: #f2f2f2;
   display: flex;
   flex-direction: column;
   border-radius: 10px;
-  box-shadow: inset 3px 3px 10px #6f778cb7,
-  inset -3px -3px 10px #6f778cb7,
-  inset -3px 3px 10px #212738b7,
-  inset 3px -3px 10px #212738b7,
+  box-shadow: inset 1px 1px 10px #99a2b7a2,
+  inset -1px -1px 10px #99a2b7a2,
+  inset -1px 1px 10px #212738b7,
+  inset 1px -1px 10px #212738b7,
   3px 3px 20px #ffffff54,
   -3px -3px 20px #ffffff54,
   -3px 3px 20px #ffffff54,
