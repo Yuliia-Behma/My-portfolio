@@ -18,6 +18,22 @@ export default defineComponent({
 
   setup() {
     const projects = [
+       {
+        url: "https://verb-fit-trainer.netlify.app/",
+        img: "/img/verbFit.png",
+        name: "VerbFit Trainer",
+        descriptions:
+          "VerbFit Trainer is a web application for learning English irregular verbs. A convenient gamified interface will enhance your motivation and interest in learning. This is a team project, together with the designer Oleksii Shirokov. This application is created using the Vue.js 3 framework, utilizing the VueRouter, Pinia, and Flowbite libraries.",
+        sourceCode: "https://github.com/Yuliia-Behma/irregular-verbs-trainer",
+      },
+      {
+        url: "https://cute-mini-weather-forecast.netlify.app/",
+        img: "/img/weather.jpg",
+        name: "Mini weather forecast app",
+        descriptions:
+          "This application is created using the Vue.js 3 framework, utilizing the VueRouter, Axios, and Pinia libraries. OpenWeatherMap's API was employed to obtain weather data.",
+        sourceCode: "https://github.com/Yuliia-Behma/mini-weather-forecast-app",
+      },
       {
         url: "https://yuliia-behma.github.io/tetris_game/",
         img: "/img/tetris.jpg",
@@ -33,14 +49,6 @@ export default defineComponent({
         descriptions:
           "The Sign In/Sign Up forms are created using Vue3. Data input validation has been implemented. Client-side routing is configured using the vue-router library.",
         sourceCode: "https://github.com/Yuliia-Behma/Vue-3-sign-in-up-form",
-      },
-      {
-        url: "https://cute-mini-weather-forecast.netlify.app/",
-        img: "/img/weather.jpg",
-        name: "Mini weather forecast app",
-        descriptions:
-          "This application is created using the Vue.js 3 framework, utilizing the Vue-router, Axios, and Pinia libraries. OpenWeatherMap's API was employed to obtain weather data.",
-        sourceCode: "https://github.com/Yuliia-Behma/mini-weather-forecast-app",
       },
     ];
     return {
