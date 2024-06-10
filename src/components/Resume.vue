@@ -3,76 +3,136 @@
     <div class="resume">
       <div class="main">
         <div class="header-resume">
-          <h3 class="position">Front-end developer</h3>
+          <h3 class="position">Front-end Developer</h3>
           <h1 class="my-name-in-resume">Yuliia Behma</h1>
-          <div class="photo-mobile"><img src="../../public/img/my-photo-ai.png" alt="my-photo" width="250"></div>
+          <div class="photo-mobile">
+            <img
+              src="../../public/img/my-photo-ai.png"
+              alt="my-photo"
+              width="250"
+            />
+          </div>
           <p class="about-me">
-            I'm a beginner front-end developer, brimming with enthusiasm and
-            drive to refine my craft. While I haven't yet had the chance to
-            collaborate within a team, I believe my portfolio website showcases
-            my skills to some extent and will hopefully pique your interest in
-            having me join your team. Although my prior work experience isn't
-            directly tied to software development, it has honed my abilities in
-            client interaction, teamwork, and underscores my meticulousness,
-            diligence, logical thinking, and knack for creating aesthetically
-            pleasing designs. I've pursued my education independently,
-            demonstrating both my resourcefulness and commitment to
-            self-improvement. Consequently, with a mentor's guidance, I'm eager
-            to rapidly elevate my skillset within a team environment.
+            I am a junior Front-end Developer with experience in developing pet
+            projects. I have strong problem-solving and self-learning skills. I
+            can work effectively both independently and as part of a team. I
+            have the ability to learn new technologies and approaches quickly. I
+            am looking for an opportunity to apply my skills in commercial
+            projects and create high-quality and useful products.
           </p>
         </div>
         <div class="work-experience">
-          <h2 class="block-name">Work-experience</h2>
+          <h2 class="block-name">My projects</h2>
           <div class="work-position">
-            <h3>Trainee Front-end developer</h3>
-            <h4 class="work-education-time">Since February 2024</h4>
+            <h3>
+              <a href="https://verb-fit-trainer.netlify.app/" target="_blank"
+                >VerbFit Trainer</a
+              >
+            </h3>
+            <h4 class="work-education-time">
+              <a
+                href="https://github.com/Yuliia-Behma/irregular-verbs-trainer"
+                target="_blank"
+                >Source code GitHub</a
+              >
+            </h4>
+            <p class="work-task-block-p">
+              VerbFit Trainer is a web application for learning English
+              irregular verbs. This is a team project, together with the
+              designer who did the project at Figma, based on my sketch
+              drawings.
+            </p>
             <ul class="work-task-block">
               <li class="work-task">
-                I work independently on pet-projects, refining and improving my
-                skills;
+                This application is created using the Vue.js 3 framework,
+                utilizing the VueRouter, Pinia, and Flowbite libraries;
               </li>
               <li class="work-task">
-                expanding my skill set and mastering new technologies;
-              </li>
-              <li class="work-task">continue studying English.</li>
-            </ul>
-          </div>
-          <div class="work-position">
-            <h3>Nail Artist</h3>
-            <h4 class="work-education-time">August 2013 - March 2023</h4>
-            <ul class="work-task-block">
-              <li class="work-task">provided nail service;</li>
-              <li class="work-task">
-                performed nail modeling considering the architectural structure
-                with acrylic, gel, and polygel;
-              </li>
-              <li class="work-task">
-                executed designs of any complexity, achieving the level of
-                TOP-master.
+                The application is responsive for mobile devices, tablets and
+                desktop
               </li>
             </ul>
           </div>
           <div class="work-position">
             <h3>
-              Accountant at
-              <span
-                >Municipal Institution 'Novomoskovsky District Labor
-                Archive'</span
+              <a
+                href="https://cute-mini-weather-forecast.netlify.app/"
+                target="_blank"
+                >Mini weather forecast app</a
               >
             </h3>
-            <h4 class="work-education-time">February 2016 - November 2016</h4>
+            <h4 class="work-education-time">
+              <a
+                href="https://github.com/Yuliia-Behma/mini-weather-forecast-app"
+                target="_blank"
+                >Source code GitHub</a
+              >
+            </h4>
+            <p class="work-task-block-p">
+              This is an application for viewing the weather forecast in a
+              locality on demand. Users can enter the name of the locality in
+              English and Ukrainian. There is also a forecast for 5 days with an
+              interval of 3 hours.
+            </p>
             <ul class="work-task-block">
               <li class="work-task">
-                independently and comprehensively managed income and expenditure
-                accounting, budget calculations, payroll calculations;
+                This application is created using the Vue.js 3 framework,
+                utilizing the VueRouter, Axios, and Pinia libraries
               </li>
               <li class="work-task">
-                compiled and timely submitted financial, budgetary, statistical,
-                and tax reporting in accordance with the law;
+                OpenWeatherMap's API was employed to obtain weather data.
+              </li>
+            </ul>
+          </div>
+          <div class="work-position">
+            <h3>
+              <a
+                href="https://main--luminous-centaur-178f20.netlify.app/"
+                target="_blank"
+                >Sign In/ Sign Up forms</a
+              >
+            </h3>
+            <h4 class="work-education-time">
+              <a
+                href="https://github.com/Yuliia-Behma/Vue-3-sign-in-up-form"
+                target="_blank"
+                >Source code GitHub</a
+              >
+            </h4>
+            <ul class="work-task-block">
+              <li class="work-task">
+                Forms created using Vue.js 3 framework with data input
+                validation implemented using Vuelidate library.
+              </li>
+            </ul>
+          </div>
+          <div class="work-position">
+            <h3>
+              <a
+                href="https://yuliia-behma.github.io/tetris_game/"
+                target="_blank"
+                >Tetris game</a
+              >
+            </h3>
+            <h4 class="work-education-time">
+              <a
+                href="https://github.com/Yuliia-Behma/tetris_game"
+                target="_blank"
+                >Source code GitHub</a
+              >
+            </h4>
+            <p class="work-task-block-p">
+              The Tetris game is a project that originates from an online
+              marathon for front-end developers. The marathon included a lot of
+              homework related to the architecture and logic of the application,
+              so everyone could create their own unique application.
+            </p>
+            <ul class="work-task-block">
+              <li class="work-task">
+                The Tetris game is created using pure JavaScript, HTML, and CSS.
               </li>
               <li class="work-task">
-                improved the organization of accounting and reporting through
-                audits and rectification of deficiencies.
+                The app is adapted for mobile devices and tablets.
               </li>
             </ul>
           </div>
@@ -107,7 +167,13 @@
         </div>
       </div>
       <div class="sidebar">
-        <div class="photo-desktop"><img src="../../public/img/my-photo-ai.png" alt="my-photo" width="350"></div>
+        <div class="photo-desktop">
+          <img
+            src="../../public/img/my-photo-ai.png"
+            alt="my-photo"
+            width="350"
+          />
+        </div>
         <div class="side-container">
           <div class="contacts">
             <h2 class="block-name">Contacts</h2>
@@ -118,13 +184,17 @@
                   alt="telephone-logo"
                 />
               </div>
-              <div class="contact-info"><a href="tel:+380978586677">+38(097) 858-66-77</a></div>
+              <div class="contact-info">
+                <a href="tel:+380978586677">+38(097) 858-66-77</a>
+              </div>
             </div>
             <div class="contact-container">
               <div class="contact-icon">
                 <img src="../../public/img/icons/email.png" alt="email-logo" />
               </div>
-              <div class="contact-info"><a href="mailto:juliyabegma@gmail.com">juliyabegma@gmail.com</a></div>
+              <div class="contact-info">
+                <a href="mailto:juliyabegma@gmail.com">juliyabegma@gmail.com</a>
+              </div>
             </div>
             <div class="contact-container">
               <div class="contact-icon">
@@ -159,14 +229,14 @@
             <h2 class="block-name">Tech skills</h2>
             <ul class="skill-list">
               <li class="skill">HTML5</li>
-              <li class="skill">CSS3/ SCSS</li>
-              <li class="skill">Flex-box/ Grid</li>
+              <li class="skill">CSS 3 | Tailwind CSS</li>
+              <li class="skill">Flex-box | Grid</li>
               <li class="skill">JavaScript</li>
               <li class="skill">TypeScript</li>
-              <li class="skill">Git/ GitHub</li>
-              <li class="skill">Angular</li>
-              <li class="skill">Vue.js</li>
-              <li class="skill">React.js</li>
+              <li class="skill">Git | GitHub</li>
+              <li class="skill">Vue.js 3</li>
+              <li class="skill">Vue Router | Axios | Pinia</li>
+              <li class="skill">REST API</li>
             </ul>
           </div>
           <div class="skills-block">
@@ -174,16 +244,15 @@
             <ul class="skill-list">
               <li class="skill">Team-player</li>
               <li class="skill">Communicative</li>
-              <li class="skill">Punctual</li>
-              <li class="skill">Clever</li>
-              <li class="skill">Tolerant</li>
+              <li class="skill">Logical thinking</li>
+              <li class="skill">Problem-Solving</li>
             </ul>
           </div>
           <div class="skills-block">
             <h2 class="block-name">Languages</h2>
             <ul class="languages">
-              <li class="skill">Ukrainian (native)</li>
-              <li class="skill">English (Intermediate B1)</li>
+              <li class="skill">Ukrainian - Native (C2)</li>
+              <li class="skill">English - Intermediate (B1)</li>
             </ul>
           </div>
         </div>
@@ -207,7 +276,7 @@ export default defineComponent({
 .resume-wraper {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 0 20px ;
+  padding: 0 0 20px;
   /* background-color: #ffffff20;
   backdrop-filter: blur(2px); */
 }
@@ -219,10 +288,10 @@ export default defineComponent({
   justify-content: center;
   border-radius: 10px;
 }
-.photo-desktop{
+.photo-desktop {
   border-bottom: 2px solid #e55934;
 }
-.photo-mobile{
+.photo-mobile {
   display: none;
 }
 
@@ -240,12 +309,19 @@ export default defineComponent({
   padding: 20px;
 }
 .block-name,
-.work-position h3,
+.work-position h3 > a,
 .educational-institution {
   font-family: "Kanit", sans-serif;
   font-weight: 400;
   font-style: normal;
   margin: 0;
+  text-decoration: none;
+  color: #000;
+}
+.work-position h3 > a:hover {
+  text-decoration: underline;
+  color: #e55934;
+  transition: all 0.3s ease;
 }
 .educational-institution a {
   text-decoration: none;
@@ -273,29 +349,44 @@ export default defineComponent({
   margin-left: 10px;
   padding: 10px 0;
 }
-.work-position h3 {
+.work-position h3 > a {
   font-size: 20px;
 }
 .block-name {
   color: #e55934;
   font-size: 22px;
 }
-.work-education-time {
+.work-education-time,
+.work-education-time > a {
   margin: 6px 0;
   color: #b7b7b7;
   font-family: "Kanit", sans-serif;
   font-weight: 400;
   font-size: 13px;
 }
+.work-education-time > a {
+  text-decoration: none;
+}
+.work-education-time > a:hover {
+  text-decoration: underline;
+  color: #797979;
+  transition: all 0.3s ease;
+}
 .work-task-block {
+  padding-left: 40px;
   margin: 0;
+  list-style: circle;
+}
+.work-task-block,
+.work-task-block-p {
   font-family: "Noticia Text", serif;
   font-weight: 400;
   font-size: 16px;
-  padding-left: 20px;
-  list-style: circle;
 }
-
+.work-task-block-p {
+  padding-left: 0;
+  margin-bottom: 10px;
+}
 .skills-block,
 .contacts {
   padding-bottom: 20px;
@@ -394,53 +485,54 @@ export default defineComponent({
   border-bottom: 2px solid #e55934;
   text-align: end;
 }
-@media screen and (max-width: 767px){
-  .resume-wraper{
+@media screen and (max-width: 767px) {
+  .resume-wraper {
     width: 100%;
   }
-  .resume{
+  .resume {
     flex-direction: column;
   }
-  .my-name-in-resume{
+  .my-name-in-resume {
     font-size: 3em;
   }
-  .main{
+  .main {
     padding: 15px;
   }
-  .about-me{
+  .about-me {
     line-height: 1.7em;
   }
-  .work-task{
+  .work-task {
     line-height: 1.7em;
   }
-  .sidebar{
+  .sidebar {
     border-left: 0;
     margin: 0 auto;
     border-top: 2px solid #e55934;
     border-radius: 0;
   }
-  .photo-desktop{
+  .photo-desktop {
     display: none;
   }
-  .photo-mobile{
+  .photo-mobile {
     display: flex;
     border-bottom: 2px solid #e55934;
     justify-content: center;
   }
-  .main .block-name, .header-resume {
+  .main .block-name,
+  .header-resume {
     text-align: start;
-  } 
-  .block-name{
+  }
+  .block-name {
     margin-top: 15px;
     font-size: 1.8em;
   }
-  .contacts{
+  .contacts {
     border-bottom: 2px solid #e55934;
   }
-  .contact-container{
+  .contact-container {
     margin: 15px 10px;
   }
-  .contact-info{
+  .contact-info {
     font-size: 1.2em;
   }
 }
