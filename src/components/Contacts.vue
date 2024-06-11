@@ -1,6 +1,6 @@
 <template>
   <div class="contact-wraper">
-    <h2>If you want to contact me</h2>
+    <h2>If you want to contact me:</h2>
     <div class="contact-container">
       <div class="contact-item">
         <div class="contact-icon"><img src="../../public/img/lightIcons/telephone.png" alt="telephone"></div>
